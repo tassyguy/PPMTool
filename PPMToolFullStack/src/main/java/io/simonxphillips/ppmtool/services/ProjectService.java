@@ -36,7 +36,4 @@ public class ProjectService {
     public Iterable<Project> findAppProjects(){
         return projectRepository.findAll();
     }
-
-    public Project findProjectByIdentifier(String projectId) {
-    }
 }
